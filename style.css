@@ -6,11 +6,8 @@
 
 header
 {
-    background: url(background.jpg);
+    background: #ffffff;
     height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 }
 
 ul.Navigation_Menu
