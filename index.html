@@ -16,11 +16,14 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap" rel="stylesheet"> 
+        <script src="script.js"></script>
+
     </head>
 
     <body>
         <div class="">
-            <div id="#nav">
+            <div id="nav">
                 <div class="navbar fixed-top">
                     <nav class="container-fluid navbar navbar-dark bg-dark navbar-expand-lg rounded-lg shadow">
                         <a class="navbar-brand" href="#">
@@ -30,8 +33,8 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse justify-content-end text-right" id="navbarNavAltMarkup">
-                            <div class="navbar-nav">
-                                <a class="nav-item nav-link" href="#home">Home</a>
+                            <div class="navbar-nav" id="nav-anchors">
+                                <a class="nav-item nav-link active" href="#home">Home</a>
                                 <a class="nav-item nav-link" href="#projects">Projects</a>
                                 <a class="nav-item nav-link" href="#resume">Resume</a>
                                 <a class="nav-item nav-link" href="#contact">Contact</a>
@@ -49,7 +52,7 @@
                     </div>
                     <div class="container p-5">
                         <div class="container text-center">
-                            <span class="bg-dark text-light px-3 py-1 rounded">Know more about me!</span>
+                            <a class="btn bg-dark text-light px-3 py-1 rounded" href="#projects">Know more about me!</a>
                         </div>
                     </div>
                 </div>
