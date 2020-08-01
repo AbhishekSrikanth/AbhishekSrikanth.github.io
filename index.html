@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Abhishek Srikanth's Website</title>
+        <title>Abhishek's Website</title>
 
         <link
         rel="stylesheet" href="css/styles.css">
@@ -25,19 +25,21 @@
         <div class="">
             <div id="nav">
                 <div class="navbar fixed-top">
-                    <nav class="container-fluid navbar navbar-dark bg-dark navbar-expand-lg rounded-lg shadow">
-                        <a class="navbar-brand" href="#">
+                    <nav class="container-fluid navbar navbar-dark bg-dark navbar-expand-lg rounded-lg shadow-lg">
+                        <a class="navbar-brand" href="#home">
+                            <img src="images/mypic.jpg" class="rounded-circle shadow-lg mx-2" width="30vh" alt="" data-toggle="tooltip" data-placement="bottom" title="Hi !">
                             <b>Abhishek Srikanth</b>
                         </a>
                         <button class="navbar-toggler btn btn-dark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse justify-content-end text-right" id="navbarNavAltMarkup">
+                        <div class="collapse navbar-collapse justify-content-end text-center" id="navbarNavAltMarkup">
                             <div class="navbar-nav" id="nav-anchors">
-                                <a class="nav-item nav-link active" href="#home">Home</a>
-                                <a class="nav-item nav-link" href="#projects">Projects</a>
-                                <a class="nav-item nav-link" href="#resume">Resume</a>
-                                <a class="nav-item nav-link" href="#contact">Contact</a>
+                                <a class="nav-item nav-link active" id="nav-home" href="#home">Home</a>
+                                <a class="nav-item nav-link" id="nav-about" href="#about">About</a>
+                                <a class="nav-item nav-link" id="nav-projects" href="#projects">Projects</a>
+                                <a class="nav-item nav-link" id="nav-resume" href="#resume">Resume</a>
+                                <a class="nav-item nav-link" id="nav-contact" href="#contact">Contact</a>
                             </div>
                         </div>
                     </nav>
@@ -47,21 +49,159 @@
                 <div class="m-auto">
                     <div class="container-fluid py-5 m-auto">
                         <div class="container text-center">
-                            <span class="text-dark display-4">Hey there! Welome to my website!</span>
+                            <span class="text-dark display-4">Hey there! Welcome to my website!</span>
                         </div>
                     </div>
                     <div class="container p-5">
                         <div class="container text-center">
-                            <a class="btn bg-dark text-light px-3 py-1 rounded" href="#projects">Know more about me!</a>
+                            <a class="btn bg-dark text-light px-3 py-1 rounded" href="#about">Know more about me!</a>
                         </div>
+                    </div>
+                    <div class="container py-3 text-center">
+                        <a href="#contact" data-toggle="tooltip" data-placement="bottom" title="E-mail">
+                            <img class="rounded-circle mx-2" src="images/mail.jpg" width="50vh" alt="linkedin.png">
+                        </a>
+                        <a href="https://github.com/AbhishekSrikanth/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="GitHub">
+                            <img class="rounded-circle mx-2" src="images/github.png" width="50vh" alt="github.png">
+                        </a>
+                        <a href="https://www.linkedin.com/in/abhishek-srikanth-803734173/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="LinkedIn">
+                            <img class="rounded-circle mx-2" src="images/linkedin.png" width="50vh" alt="linkedin.png">
+                        </a>
+                        <a href="https://t.me/OmegaPrimus" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Telegram">
+                            <img class="rounded-circle mx-2" src="images/tg.png" width="50vh" alt="tg.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid m-auto bg-dark" style="height: 100vh;" id="about">
+                <div class="d-flex h-100">
+                    <div class="m-auto w-25 p-5 rounded shadow">
+                        <span class="text-light"><h3>Abhishek Srikanth</h3></span>
+                        <span class="text-secondary">Bangalore, India</span>
+                        <div class="py-5">
+                            <span class="text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit possimus magni suscipit similique quas voluptate corrupti repellendus praesentium dignissimos! Incidunt tempore, dolor enim debitis architecto velit. Ex corporis impedit quae?</span>
+                        </div>
+                        <span class="text-secondary">Fluent in: English and Tamil</span>
+                    </div>
+                    <div class="m-auto rounded-circle bg-secondary shadow-lg">
+                        <img class="rounded-circle p-2" src="images/mypic.jpg" alt="mupic.jpg">
                     </div>
                 </div>
             </div>
             <div class="container-fluid m-auto bg-dark" style="height: 100vh;" id="projects">
+                <div class="d-flex h-100">
+                    <div class="m-auto">
+                        <div class="container text-center my-5">
+                            <span class="text-light display-3">My Projects</span>
+                        </div>
+                        <div class="d-flex my-5">
+                            <div class="card mx-3 shadow-lg w-25" style="width:400px">
+                                <img class="card-img-top" src="images/nn-icon.png" alt="Card image">
+                                <div class="card-body">
+                                  <h4 class="card-title">John Doe</h4>
+                                  <p class="card-text">Some example text.</p>
+                                  <a href="#" class="btn btn-dark">See Profile</a>
+                                </div>
+                            </div>
+                            <div class="card mx-3 shadow-lg w-25" style="width:400px">
+                                <img class="card-img-top" src="images/nn-icon.png" alt="Card image">
+                                <div class="card-body">
+                                  <h4 class="card-title">John Doe</h4>
+                                  <p class="card-text">Some example text.</p>
+                                  <a href="#" class="btn btn-dark">See Profile</a>
+                                </div>
+                            </div>
+                            <div class="card mx-3 shadow-lg w-25" style="width:400px">
+                                <img class="card-img-top" src="images/nn-icon.png" alt="Card image">
+                                <div class="card-body">
+                                  <h4 class="card-title">John Doe</h4>
+                                  <p class="card-text">Some example text.</p>
+                                  <a href="#" class="btn btn-dark">See Profile</a>
+                                </div>
+                            </div>
+                            <div class="card mx-3 shadow-lg w-25" style="width:400px">
+                                <img class="card-img-top" src="images/nn-icon.png" alt="Card image">
+                                <div class="card-body">
+                                  <h4 class="card-title">John Doe</h4>
+                                  <p class="card-text">Some example text.</p>
+                                  <a href="#" class="btn btn-dark">See Profile</a>
+                                </div>
+                            </div>
+                            <div class="card mx-3 shadow-lg w-25" style="width:400px">
+                                <img class="card-img-top" src="images/nn-icon.png" alt="Card image">
+                                <div class="card-body">
+                                  <h4 class="card-title">John Doe</h4>
+                                  <p class="card-text">Some example text.</p>
+                                  <a href="#" class="btn btn-dark">See Profile</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="container-fluid m-auto bg-light" style="height: 100vh;" id="resume">
+                <div class="d-flex h-100">
+                    <div class="m-auto">
+                        <div class="container">
+                            <span class="display-4">
+                                My Resume
+                            </span>
+                        </div>
+                    </div>
+                    <div class="m-auto">
+                        <div class="container text-center btn btn-dark my-3">
+                            <span>
+                                View My Resume
+                            </span>
+                        </div>
+                        <div class="container text-center btn btn-outline-dark my-3">
+                            <span>
+                                Download My Resume
+                            </span>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="container-fluid m-auto bg-secondary" style="height: 40vh;" id="contact">
+                <div class="d-flex h-100">
+                    <div class="m-auto">
+                        <div class="container">
+                            <span class="display-4 text-light">
+                                Contact
+                            </span>
+                            <br>
+                            <span class="display-4 text-light">
+                                me here
+                            </span>
+                        </div>
+                    </div>
+                    <div class="m-auto text-left">
+                        <div class="d-flex p-2 m-2 rounded shadow-lg">
+                            <div class="bg-dark text-light py-2 px-1 rounded-left w-100">
+                                <img class="rounded-circle mx-2" src="images/mail.jpg" width="20vh" alt="linkedin.png">
+                            </div>
+                            <div class="bg-light py-2 px-3 rounded-right">
+                                abhisrik99@outlook.com
+                            </div>
+                        </div>
+                        <div class="d-flex p-2 m-2 rounded shadow-lg">
+                            <div class="bg-dark text-light py-2 px-1 rounded-left">
+                                <img class="rounded-circle mx-2" src="images/github.png" width="20vh" alt="github.png">
+                            </div>
+                            <div class="bg-light py-2 px-3 rounded-right w-100">
+                                GitHub
+                            </div>
+                        </div>
+                        <div class="d-flex p-2 m-2 rounded shadow-lg">
+                            <div class="bg-dark text-light py-2 px-1 rounded-left">
+                                <img class="rounded-circle mx-2" src="images/linkedin.png" width="20vh" alt="linkedin.png">
+                            </div>
+                            <div class="bg-light py-2 px-3 rounded-right w-100">
+                                LinkedIn
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
