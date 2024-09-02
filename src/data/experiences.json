@@ -4,23 +4,25 @@
         "timePeriod": "January 2023 - July 2023",
         "company": "Zmanda, BETSOL",
         "description": [
-            "Excelled as a full-stack developer at Zmanda, working on design, development and maintenance of pivotal features, services and proof of concepts using Django, React JS and Bash.",
-            "Successfully resolved numerous critical production bugs with exceptional efficiency, minimizing downtime and ensuring product stability.",
-            "Contributed to Amanda Community (Open-Source) and Enterprise editions.",
-            "Lead the Build and packaging team responsible for building, packaging  and delivering the product. Built Gitlab and jenkins pipelines to build Linux packages for Python, C, Perl, Golang applications.",
-            "Developed and executed project plans for several program Increments within the Scaled Agile framework, ensuring alignment with overall project goals and objectives."
-        ]
+            "Resolved security issues in legacy code and dependencies and ensured application-wide compatibility, impacting 80% of the user base.",
+            "Contributed to the development of a deduplication feature, reducing backup storage by 50-90% in enterprise environments.",
+            "Fixed critical bugs that affected tape backups’ integrity, which affected over 80% of users and terabytes of data.",
+            "Optimized and maintained 6+ core Zmanda Git repositories, ensuring seamless version control across multiple teams.",
+            "Contributed to Amanda Community (Open-Source) and Enterprise editions, improving system reliability.",
+            "Spearheaded the Build and Packaging team; automated CI/CD pipelines in GitLab and Jenkins for Python, C, Perl, and Golang applications.",
+            "Led and managed project plans for multiple program increments within the Scaled Agile Framework, achieving near 100% on-time delivery and alignment with project goals."
+          ]
+          
     },
     {
         "title": "Associate Software Engineer",
         "timePeriod": "July 2021 - December 2022",
         "company": "Zmanda, BETSOL",
         "description": [
-            "Worked as full stack developer for Zmanda. Developed and maintained monitoring features to monitor critical jobs and workflows on the product.",
-            "Designed and worked on multiple Proof of Concepts, including Disaster Recovery and Global Data De-duplication.",
-            "Experienced in collaborating with cross-functional teams and working with the technical support team to quickly resolve production bugs reported by a large user base.",
-            "Mentored interns to work on various services of the product.",
-            "Gained proficiency in various technologies including Python, JavaScript, Bash scripting, React JS, Django framework, Flask, RPM packaging, DEB packaging, and git repository maintenance."
+            "Developed and enhanced a monitoring feature using Django Rest Framework, reducing data latency by 95% and tracking 100+ critical jobs and workflows in near real-time.",
+            "Designed and developed multiple Proofs of Concept, including Disaster Recovery and Global Data Deduplication, resulting in a 50-90% reduction in backup storage.",
+            "Collaborated with cross-functional teams to resolve over 100 critical production bugs reported by a large user base.",
+            "Mentored 5+ interns in building Proofs of Concept and developing various product services, leading to successful project completions and enhanced team productivity."
         ]
     },
     {
@@ -28,19 +30,19 @@
         "timePeriod": "March 2021 - June 2021",
         "company": "Zmanda, BETSOL",
         "description": [
-            "Worked as a back-end developer intern for Zmanda.",
-            "Responsible for designing and implementing critical RESTful APIs utilizing the Django framework.",
-            "Successfully created monitoring systems that enabled users to seamlessly monitor all critical jobs within the product."
+            "Responsible for designing and implementing POCs using RESTful APIs to monitor critical backup and restore jobs in Zmanda.",
+            "Successfully built the backend and data pipelines for the monitoring feature."
         ]
+          
     },
     {
         "title": "Data Analysis Intern",
         "timePeriod": "January 2020 - February 2020",
         "company": "National Institute Of Technology, Chennai, India",
         "description": [
-            "Analyzed Arctic data, including Sound Speed Profiles, Salinity, Temperature, and Wind Speed, utilizing unsupervised clustering techniques (K-Means, DBSCAN, Agglomerative)",
+            "Analyzed Arctic data, including Sound Speed Profiles, Salinity, Temperature, and Wind Speed, utilizing unsupervised clustering techniques (K-Means, DBSCAN, Agglomerative).",
             "Implemented supervised learning methods to predict vessel movement in the Arctic region through analysis of Sound Speed Profiles.",
             "Utilized visualization techniques to effectively communicate clusters and data point relationships in the analyzed data."
-        ]
+          ]
     }
 ]
