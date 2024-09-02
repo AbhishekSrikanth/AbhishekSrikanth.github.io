@@ -17,7 +17,7 @@ function NameCard() {
                 <a className="hover:text-black" href="https://t.me/OmegaPrimus" target="_blank" rel="noreferrer" ><FontAwesomeIcon icon="fa-brands fa-telegram" /></a>
                 <a className="hover:text-black" href="mailto:abhisrik99@outlook.com" target="_blank" rel="noreferrer" ><FontAwesomeIcon icon="fa-solid fa-envelope" /></a>
             </div>
-            <a href="Resume - Abhishek Srikanth - SDE - Dec 2023.pdf" download className="px-4 py-1 max-w-min border-2 border-gray-500 mx-auto bg-white text-gray-500 hover:text-white hover:border-black hover:bg-black outline-black rounded-full flex items-center space-x-3">
+            <a href="resume-abhishek-srikanth.pdf" download className="px-4 py-1 max-w-min border-2 border-gray-500 mx-auto bg-white text-gray-500 hover:text-white hover:border-black hover:bg-black outline-black rounded-full flex items-center space-x-3">
                 <div className="flex-shrink-0">
                     <FontAwesomeIcon icon="fa-solid fa-download" />
                 </div>
