@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.043c5783.css",
+    "main.js": "/static/js/main.d34b8001.js",
+    "static/media/Abhishek.png": "/static/media/Abhishek.110458fb2beac1455eaa.png",
+    "static/media/amrita_logo.jpg": "/static/media/amrita_logo.05c2314b3d56e2e15de1.jpg",
+    "static/media/icons8-jenkins.svg": "/static/media/icons8-jenkins.cd4ee713b18345c1fe9d.svg",
+    "static/media/red-award.svg": "/static/media/red-award.eb7a19cc6b77428d87fff79fca3d1d27.svg",
+    "static/media/blue-award.svg": "/static/media/blue-award.ba28e80d1fef3a75300d2bc7d068e5db.svg",
+    "static/media/green-award.svg": "/static/media/green-award.1200c830b005d9a6533566d4f0a6eb3f.svg",
+    "static/media/icons8-django.svg": "/static/media/icons8-django.7b1cc13d8d2f4289346c.svg",
+    "static/media/icons8-docker.svg": "/static/media/icons8-docker.c49ffb5c2e6d11bfae96.svg",
+    "static/media/icons8-python.svg": "/static/media/icons8-python.026a62687ef705a39cfc.svg",
+    "static/media/Purdue_logo.svg": "/static/media/Purdue_logo.afdb2b767b87b932b8c3.svg",
+    "static/media/icons8-javascript.svg": "/static/media/icons8-javascript.081325c6f229605dce15.svg",
+    "index.html": "/index.html",
+    "static/media/icons8-html.svg": "/static/media/icons8-html.c1bb84e022ca9d76984d.svg",
+    "static/media/icons8-tensorflow.svg": "/static/media/icons8-tensorflow.d978d6b0a450f5416ab4.svg",
+    "static/media/icons8-gitlab.svg": "/static/media/icons8-gitlab.c54dbd2d930a01103af9.svg",
+    "main.043c5783.css.map": "/static/css/main.043c5783.css.map",
+    "main.d34b8001.js.map": "/static/js/main.d34b8001.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.043c5783.css",
+    "static/js/main.d34b8001.js"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "short_name": "Abhishek Srikanth",
+  "name": "Abhishek Srikanth's Portfolio Website",
+  "icons": [
+    {
+      "src": "abhishek-icon.png",
+      "sizes": "316x316",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
