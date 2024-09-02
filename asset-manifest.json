@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.043c5783.css",
-    "main.js": "/static/js/main.d34b8001.js",
+    "main.js": "/static/js/main.8d0be691.js",
     "static/media/Abhishek.png": "/static/media/Abhishek.110458fb2beac1455eaa.png",
     "static/media/amrita_logo.jpg": "/static/media/amrita_logo.05c2314b3d56e2e15de1.jpg",
     "static/media/icons8-jenkins.svg": "/static/media/icons8-jenkins.cd4ee713b18345c1fe9d.svg",
@@ -18,10 +18,10 @@
     "static/media/icons8-tensorflow.svg": "/static/media/icons8-tensorflow.d978d6b0a450f5416ab4.svg",
     "static/media/icons8-gitlab.svg": "/static/media/icons8-gitlab.c54dbd2d930a01103af9.svg",
     "main.043c5783.css.map": "/static/css/main.043c5783.css.map",
-    "main.d34b8001.js.map": "/static/js/main.d34b8001.js.map"
+    "main.8d0be691.js.map": "/static/js/main.8d0be691.js.map"
   },
   "entrypoints": [
     "static/css/main.043c5783.css",
-    "static/js/main.d34b8001.js"
+    "static/js/main.8d0be691.js"
   ]
 }
