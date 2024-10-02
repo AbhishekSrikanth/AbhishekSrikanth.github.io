@@ -10,5 +10,9 @@
     {
         "name": "Smoke Detection using CNNs",
         "link": "https://github.com/AbhishekSrikanth/Smoke-Detection-Dump"
+    },
+    {
+        "name": "Model Agnostic Meta Learning",
+        "link": "https://github.com/AbhishekSrikanth/model-agnostic-meta-learning"
     }
 ]
